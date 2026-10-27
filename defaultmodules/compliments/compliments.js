@@ -7,8 +7,8 @@ Module.register("compliments", {
 			anytime: ["Hey there you WiC-tastic person"],
 			morning: ["Good morning!", "Enjoy your day!", "How was your sleep?"],
 			afternoon: ["Hello, beauty!", "You look so swag!", "Looking good today!"],
-			evening: ["Wow, you look swag!", "You look nice!", "Good evening, buddy!"],
-			"....-01-01": ["Happy new year!"]
+			evening: ["Wow, you look swag!", "You look nice!", "Good Evening, Superstar!"],
+			"....-01-01": ["Happy New Year!"]
 		},
 		updateInterval: 30000,
 		remoteFile: null,
