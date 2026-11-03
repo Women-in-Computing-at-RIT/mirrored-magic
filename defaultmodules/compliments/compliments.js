@@ -6,7 +6,7 @@ Module.register("compliments", {
 		compliments: {
 			anytime: ["Hey there you WiC-tastic person"],
 			morning: ["Good morning!", "Enjoy your day!", "How was your sleep?"],
-			afternoon: ["Hello, beauty!", "You look so swag!", "Looking good today!", "You are awesome!"],
+			afternoon: ["Hello, beauty!", "You look so swag!", "Looking good today!"],
 			evening: ["Wow, you look swag!", "You look nice!", "Good evening, buddy!"],
 			"....-01-01": ["Happy new year!"]
 		},
