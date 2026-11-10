@@ -20,12 +20,12 @@ Module.register("calendar", {
 		maxTitleLines: 3,
 		maxEventTitleLines: 3,
 		fetchInterval: 60 * 60 * 1000, // Update every hour
-		animationSpeed: 2000,
+		animationSpeed: 4000,
 		fade: true,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		urgency: 7,
 		timeFormat: "relative",
-		dateFormat: "MMM Do",
+		dateFormat: "MMM Do HH:mm",
 		dateEndFormat: "LT",
 		fullDayEventDateFormat: "MMM Do",
 		showEnd: false,
@@ -59,10 +59,10 @@ Module.register("calendar", {
 		broadcastPastEvents: false,
 		nextDaysRelative: false,
 		selfSignedCert: false,
-		coloredText: false,
+		coloredText: true,
 		coloredBorder: false,
 		coloredSymbol: false,
-		coloredBackground: false,
+		coloredBackground: true,
 		limitDaysNeverSkip: false,
 		flipDateHeaderTitle: false,
 		updateOnFetch: true

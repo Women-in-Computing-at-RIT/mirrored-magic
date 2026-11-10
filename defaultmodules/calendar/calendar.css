@@ -4,12 +4,32 @@
   justify-content: flex-end;
   gap: 5px;
 }
-
+/*Messed with color formatting */
 .calendar .title {
   padding: 0 10px;
+  color: rebeccapurple;
+  flex-grow: 1;
 }
 
 .calendar .time {
   padding-left: 20px;
   text-align: right;
+  white-space: nowrap;
+}
+.calendar tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.calendar table{
+  background-color: #6a1b9a; /* Deep purple color */
+}
+.calendar table .event {
+
+  border-radius: 4px;        /* Softens the corners of the background box */
+  margin-bottom: 4px;        /* Adds a tiny gap between separate events */
+  display: flex;             /* Keeps your existing flex layout working */
+  align-items: center;
+  padding: 5px 10px;         /* Adds breathing room inside the purple box */
 }
