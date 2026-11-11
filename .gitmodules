@@ -1,0 +1,3 @@
+[submodule "modules/MMM-MagicDraw"]
+	path = modules/MMM-MagicDraw
+	url = https://github.com/ivlovric/MMM-MagicDraw
