@@ -54,14 +54,18 @@ const config = {
 		{
 			module: "calendar",
 			header: "US Holidays",
-			position: "top_left",
+			position: "lower_left",
 			config: {
 				calendars: [
 					{
 						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
 						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-					}
+
+					}					{
+           						symbol: "calendar",
+           						url:"https://calendar.google.com/calendar/ical/c_eaa208bfca28d8259776c78589c4079f84cf6cf08cb528e96dbbd3959ce138dc%40group.calendar.google.com/public/basic.ics"
+           					}
 				]
 			}
 		},
