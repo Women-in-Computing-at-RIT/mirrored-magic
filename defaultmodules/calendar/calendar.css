@@ -22,11 +22,11 @@
   justify-content: space-between;
   width: 100%;
 }
-.calendar table{
-  background-color: #6a1b9a; /* Deep purple color */
+.calendar table {
+
 }
 .calendar table .event {
-
+  background-color: #6a1b9a; /* Deep purple color */
   border-radius: 4px;        /* Softens the corners of the background box */
   margin-bottom: 4px;        /* Adds a tiny gap between separate events */
   display: flex;             /* Keeps your existing flex layout working */
