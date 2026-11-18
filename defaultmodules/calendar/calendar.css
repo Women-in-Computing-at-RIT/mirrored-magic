@@ -4,7 +4,11 @@
   justify-content: flex-end;
   gap: 5px;
 }
-
+.calendar .module-header{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
 .calendar .title {
   padding: 0 10px;
   color: White;
@@ -22,9 +26,7 @@
   justify-content: space-between;
   width: 100%;
 }
-.calendar table {
 
-}
 .calendar table .event {
   background-color: #6a1b9a; /* Deep purple color */
   border-radius: 4px;        /* Softens the corners of the background box */
