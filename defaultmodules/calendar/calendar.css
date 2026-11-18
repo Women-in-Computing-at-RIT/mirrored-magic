@@ -4,10 +4,10 @@
   justify-content: flex-end;
   gap: 5px;
 }
-/*Messed with color formatting */
+
 .calendar .title {
   padding: 0 10px;
-  color: rebeccapurple;
+  color: White;
   flex-grow: 1;
 }
 

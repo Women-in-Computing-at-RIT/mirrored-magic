@@ -8,7 +8,7 @@ Module.register("calendar", {
 		limitDays: 0, // Limit the number of days shown, 0 = no limit
 		pastDaysCount: 0,
 		displaySymbol: true,
-		defaultSymbol: "calendar-days", // Fontawesome Symbol see https://fontawesome.com/search?ic=free&o=r
+		defaultSymbol: "cat-solid-full", // Fontawesome Symbol see https://fontawesome.com/search?ic=free&o=r
 		defaultSymbolClassName: "fas fa-fw fa-",
 		showLocation: false,
 		displayRepeatingCountTitle: false,
@@ -62,7 +62,7 @@ Module.register("calendar", {
 		coloredText: true,
 		coloredBorder: true,
 		coloredSymbol: true,
-		coloredBackground: true,
+		coloredBackground: false,
 		limitDaysNeverSkip: false,
 		flipDateHeaderTitle: false,
 		updateOnFetch: true
